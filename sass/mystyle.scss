@@ -1,0 +1,18 @@
+
+  /* Import bootstrap-sass so that we have access to all of its selectors */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/* Author Bio and Author Name are just Bootstrap .row elements */
+/*.author-bio,
+.author-name {
+  @extend .row;
+}
+
+.bottone {
+	@extend .btn;
+}
+*/
+
+.arx-form {
+	@extend .form-horizontal;
+}
